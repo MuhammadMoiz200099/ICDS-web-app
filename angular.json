@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "international-conference-of-data-science"
+    }
+  },
+  "defaultProject": "international-conference-of-data-science",
+  "cli": {
+    "analytics": false
+  }
 }
