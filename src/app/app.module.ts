@@ -5,7 +5,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
-import { HeaderComponent } from './components/header/header.component';
 import { HeaderBannerComponent } from './components/header-banner/header-banner.component';
 import { HeaderNavigationComponent } from './components/header-navigation/header-navigation.component';
 import { BaselineLayoutComponent } from './components/baseline-layout/baseline-layout.component';
@@ -18,7 +17,6 @@ import { HomeGalleryComponent } from './components/home-gallery/home-gallery.com
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     HeaderBannerComponent,
     HeaderNavigationComponent,
     BaselineLayoutComponent,
