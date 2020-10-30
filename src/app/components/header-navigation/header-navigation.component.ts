@@ -15,7 +15,7 @@ export class HeaderNavigationComponent {
     {
       name: 'Home',
       isMoreOptions: false,
-      routeLink: '',
+      routeLink: '/home',
     },
     {
       name: 'Program',
@@ -75,7 +75,7 @@ export class HeaderNavigationComponent {
     {
       name: 'Contact',
       isMoreOptions: false,
-      routeLink: '',
+      routeLink: '/contact',
     }
   ];
 

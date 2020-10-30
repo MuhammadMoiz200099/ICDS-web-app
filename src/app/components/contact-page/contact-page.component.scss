@@ -1,0 +1,60 @@
+.social-links {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+
+    .pointAtStart {
+        align-items: flex-start !important;
+    }
+
+    .icon-link {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+
+        i {
+            font-size: 20px;
+        }
+
+        .light {
+            color: #676767;
+        }
+
+        .fa-facebook-square {
+            color: #3e87b1;
+        }
+
+        .fa-at {
+            font-weight: 600;
+            color: #2e2e2e;
+        }
+
+        .fa-twitter-square {
+            color: #238ae8;
+        }
+
+        .fa-phone-square {
+            color: #28a745;
+        }
+
+        .fa-map-marker {
+            color: #bd2b2b;
+        }
+    }
+}
+
+.map {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ImportantDatesComponent } from './components/important-dates/important-dates.component';
 import { HomeGalleryComponent } from './components/home-gallery/home-gallery.component';
+import { ContactPageComponent } from './components/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HomeGalleryComponent } from './components/home-gallery/home-gallery.com
     FooterComponent,
     HomeComponent,
     ImportantDatesComponent,
-    HomeGalleryComponent
+    HomeGalleryComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

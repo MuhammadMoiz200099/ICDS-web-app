@@ -8,11 +8,11 @@
         <ul class="navbar-nav">
             <li class="nav-item active" *ngFor="let navOptions of navbarOptions; let idx = index">
                 <div *ngIf="navOptions.name !== 'Program' && navOptions.name !== 'Committees'">
-                    <a class="nav-link" href="#">{{ navOptions.name }}</a>
+                    <a class="nav-link" [routerLink]="[navOptions.routeLink]">{{ navOptions.name }}</a>
                 </div>
                 <div *ngIf="navOptions.name === 'Program' || navOptions.name === 'Committees'">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" [routerLink]="[navOptions.routeLink]" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {{ navOptions.name }}
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
