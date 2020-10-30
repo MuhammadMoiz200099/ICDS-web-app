@@ -1,0 +1,15 @@
+<div class="page">
+    <div class="page-header">
+        <h2>Important Dates</h2>
+    </div>
+    <div class="page-contant">
+        <table class="table-dates">
+            <tbody>
+                <tr *ngFor="let row of dates" [class.meet-deadline]="row.deadlineClose">
+                    <td>{{ row.subject }}</td>
+                    <td>{{ row.date }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

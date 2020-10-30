@@ -1,0 +1,15 @@
+.img-grid {
+    width: 220px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}

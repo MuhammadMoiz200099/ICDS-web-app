@@ -1,0 +1,51 @@
+.overview {
+    text-decoration: underline;
+}
+
+.hero-text {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    span {
+        font-weight: bold;
+        color: #4d4c4c !important;
+    }
+}
+
+.all-events {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .paper-date {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span:nth-child(odd) {
+            color: #437eb0;
+        }
+
+        span:nth-child(even) {
+            color: red;
+        }
+    }
+
+    .event-buttons {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+
+        .extra-round {
+            border-radius: 1.25rem !important;
+        }
+    }
+}

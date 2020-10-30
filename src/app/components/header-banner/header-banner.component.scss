@@ -1,0 +1,33 @@
+.app-banner {
+    background: url(./../.././../assets/img/header-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .top-banner-img {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .banner-text {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        color: #e1e1e1;
+
+        span.banner-text-header {
+            padding-top: 0px;
+            font-size: 32px;
+        }
+
+        span.banner-text-end-date {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1s0px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    }
+}
