@@ -14,6 +14,11 @@ import { HomeComponent } from './components/home/home.component';
 import { ImportantDatesComponent } from './components/important-dates/important-dates.component';
 import { HomeGalleryComponent } from './components/home-gallery/home-gallery.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
+import { PreviewImportantDatesComponent } from './components/preview-important-dates/preview-important-dates.component';
+import { ScopeAndObjectiveComponent } from './components/scope-and-objective/scope-and-objective.component';
+import { InformationCardComponent } from './components/information-card/information-card.component';
+import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
+import { VenueGalleryComponent } from './components/venue-gallery/venue-gallery.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { ContactPageComponent } from './components/contact-page/contact-page.com
     HomeComponent,
     ImportantDatesComponent,
     HomeGalleryComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    PreviewImportantDatesComponent,
+    ScopeAndObjectiveComponent,
+    InformationCardComponent,
+    ProgramVenueComponent,
+    VenueGalleryComponent
   ],
   imports: [
     BrowserModule,

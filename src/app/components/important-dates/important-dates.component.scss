@@ -1,3 +1,11 @@
+.tableCenter {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .table-dates {
     border: 1px solid #676767;
 

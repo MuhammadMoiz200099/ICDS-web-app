@@ -20,10 +20,10 @@ export class HeaderNavigationComponent {
     {
       name: 'Program',
       isMoreOptions: true,
-      routeLink: '',
+      routeLink: '/important-dates',
       options: [{
         name: 'Important dates',
-        routeLink: '',
+        routeLink: '/important-dates',
       }, {
         name: 'Invited Speakers',
         routeLink: '',
@@ -38,7 +38,7 @@ export class HeaderNavigationComponent {
     {
       name: 'Scopes & Objectives',
       isMoreOptions: false,
-      routeLink: '',
+      routeLink: '/scope-and-objective',
     },
     {
       name: 'Detailed Technical Program',
@@ -53,7 +53,7 @@ export class HeaderNavigationComponent {
     {
       name: 'Venue',
       isMoreOptions: false,
-      routeLink: '',
+      routeLink: '/program-venue',
     },
     {
       name: 'Committees',

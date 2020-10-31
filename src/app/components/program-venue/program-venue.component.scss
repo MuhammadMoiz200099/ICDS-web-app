@@ -1,0 +1,30 @@
+.venue {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .heading {
+        font-size: 28px;
+
+        .fa-map-marker {
+            color: #bd2b2b;
+        }
+    }
+
+    .light {
+        font-size: 14px;
+    }
+}
+
+.map {
+    min-height: 250px;
+
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+}

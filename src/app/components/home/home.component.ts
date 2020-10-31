@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MockDataImportantDates } from 'src/app/Data/important-dates-data.constant';
 import { IImportantDates } from 'src/app/typing/client/important-dates';
 
 @Component({
@@ -22,34 +23,7 @@ export class HomeComponent implements OnInit {
     'Data Science Applications',
   ];
 
-  public importantDate: Array<IImportantDates> = [
-    {
-      subject: 'Paper Submission Deadline',
-      date: '15th December 2020',
-      deadlineClose: true
-    },
-    {
-      subject: 'Acceptance Notification',
-      date: '30th December 2020',
-      deadlineClose: false
-    },
-    {
-      subject: 'Camera Ready Submission',
-      date: '15th January2020',
-      deadlineClose: false
-    },
-    {
-      subject: 'Early Bird Registration',
-      date: '1st  January2020',
-      deadlineClose: false
-    },
-    {
-      subject: 'Late Registration',
-      date: '20nd  January 2020',
-      deadlineClose: false
-    },
-  ];
-
+  public importantDate: Array<IImportantDates> = MockDataImportantDates;
 
   constructor() { }
 
