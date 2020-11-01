@@ -19,6 +19,9 @@ import { ScopeAndObjectiveComponent } from './components/scope-and-objective/sco
 import { InformationCardComponent } from './components/information-card/information-card.component';
 import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
 import { VenueGalleryComponent } from './components/venue-gallery/venue-gallery.component';
+import { DetailedTechnicalProgramComponent } from './components/detailed-technical-program/detailed-technical-program.component';
+import { OrganizingCommitteeComponent } from './components/organizing-committee/organizing-committee.component';
+import { TechnicalProgramCommitteeComponent } from './components/technical-program-committee/technical-program-committee.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { VenueGalleryComponent } from './components/venue-gallery/venue-gallery.
     ScopeAndObjectiveComponent,
     InformationCardComponent,
     ProgramVenueComponent,
-    VenueGalleryComponent
+    VenueGalleryComponent,
+    DetailedTechnicalProgramComponent,
+    OrganizingCommitteeComponent,
+    TechnicalProgramCommitteeComponent
   ],
   imports: [
     BrowserModule,

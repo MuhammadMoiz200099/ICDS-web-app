@@ -1,0 +1,22 @@
+.committee-layout {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+
+    .committe-details {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 55%;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #676767 !important;
+
+        .program-name {
+            font-weight: 700;
+        }
+    }
+}

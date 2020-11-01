@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MockVenueData } from 'src/app/Data/venue-gallery-data.constant';
+import { IImages } from 'src/app/typing/client/image';
 
 @Component({
   selector: 'app-venue-gallery',
@@ -7,14 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VenueGalleryComponent implements OnInit {
 
-  public karachiGallery: Array<{ img: string }> = [
-    { img: './../../../assets/img/karachi/maju.png' },
-    { img: './../../../assets/img/karachi/kpt.jpg' },
-    { img: './../../../assets/img/karachi/Karachi.jpg' },
-    { img: './../../../assets/img/karachi/ii-chundigar.jpg' },
-    { img: './../../../assets/img/karachi/impress-market.png' },
-    { img: './../../../assets/img/karachi/teen-talwar.jpg' },
-  ];
+  public karachiGallery: Array<IImages> = MockVenueData;
 
   constructor() { }
 

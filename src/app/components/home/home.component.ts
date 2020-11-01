@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MockDataProgramsLeft, MockDataProgramsRight } from 'src/app/Data/home-data.constant';
 import { MockDataImportantDates } from 'src/app/Data/important-dates-data.constant';
 import { IImportantDates } from 'src/app/typing/client/important-dates';
 
@@ -9,19 +10,8 @@ import { IImportantDates } from 'src/app/typing/client/important-dates';
 })
 export class HomeComponent implements OnInit {
 
-  public programsLeftUl = [
-    'Data Preprocessing',
-    'Data Visualization',
-    'Distributed and Parallel Computing',
-    'Ethics and law for Data Science',
-    'Curriculum and Teaching of Data Science'
-  ];
-  public programsRightUl = [
-    'Machine Learning & Data Analytics',
-    'Data Storage and Retrieval',
-    'Blockchain and its applications',
-    'Data Science Applications',
-  ];
+  public programsLeftUl: Array<string> = MockDataProgramsLeft;
+  public programsRightUl: Array<string> = MockDataProgramsRight;
 
   public importantDate: Array<IImportantDates> = MockDataImportantDates;
 

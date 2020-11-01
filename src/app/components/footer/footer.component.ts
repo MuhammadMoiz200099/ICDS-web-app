@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MockDataFooterImages } from 'src/app/Data/footer-images.data.constant';
+import { IImages } from 'src/app/typing/client/image';
 
 @Component({
   selector: 'app-footer',
@@ -8,26 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   public currentYear = new Date().getFullYear();
-  public Spounsers = [
-    {
-      img: './../../../assets/img/maju-logo2.png'
-    },
-    {
-      img: './../../../assets/img/maju-logo2.png'
-    },
-    {
-      img: './../../../assets/img/maju-logo2.png'
-    },
-    {
-      img: './../../../assets/img/maju-logo2.png'
-    },
-    {
-      img: './../../../assets/img/maju-logo2.png'
-    },
-    {
-      img: './../../../assets/img/maju-logo2.png'
-    },
-  ];
+  public Spounsers: Array<IImages> = MockDataFooterImages;
   constructor() { }
 
   ngOnInit(): void {

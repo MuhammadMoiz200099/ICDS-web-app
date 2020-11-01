@@ -1,0 +1,25 @@
+.technical-committee {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 25px;
+
+    .committee-member-name {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+
+        .items {
+            font-size: 12pt;
+            font-family: "Cambria", "serif";
+            mso-ascii-theme-font: major-latin;
+            mso-fareast-font-family: "Times New Roman";
+            mso-hansi-theme-font: major-latin;
+            mso-bidi-font-family: "Times New Roman";
+            mso-fareast-language: EN-GB;
+            color: #676767 !important;
+        }
+    }
+}
