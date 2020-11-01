@@ -25,6 +25,7 @@ import { TechnicalProgramCommitteeComponent } from './components/technical-progr
 import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
 import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
 import { PartnersComponent } from './components/partners/partners.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { PartnersComponent } from './components/partners/partners.component';
     TechnicalProgramCommitteeComponent,
     InvitedSpeakersComponent,
     AcceptedPapersComponent,
-    PartnersComponent
+    PartnersComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,

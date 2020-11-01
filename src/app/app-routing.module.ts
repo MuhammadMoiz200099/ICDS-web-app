@@ -9,6 +9,7 @@ import { OrganizingCommitteeComponent } from './components/organizing-committee/
 import { PartnersComponent } from './components/partners/partners.component';
 import { PreviewImportantDatesComponent } from './components/preview-important-dates/preview-important-dates.component';
 import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
+import { RegistrationComponent } from './components/registration/registration.component';
 import { ScopeAndObjectiveComponent } from './components/scope-and-objective/scope-and-objective.component';
 import { TechnicalProgramCommitteeComponent } from './components/technical-program-committee/technical-program-committee.component';
 
@@ -39,6 +40,10 @@ const routes: Routes = [
       {
         path: 'detailed-technical-program',
         component: DetailedTechnicalProgramComponent
+      },
+      {
+        path: 'registration',
+        component: RegistrationComponent
       },
       {
         path: 'program-venue',

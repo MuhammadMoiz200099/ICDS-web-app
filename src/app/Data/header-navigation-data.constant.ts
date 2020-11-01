@@ -37,7 +37,7 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
     {
         name: 'Registration',
         isMoreOptions: false,
-        routeLink: '',
+        routeLink: '/registration',
     },
     {
         name: 'Venue',

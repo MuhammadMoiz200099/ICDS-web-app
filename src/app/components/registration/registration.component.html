@@ -1,0 +1,65 @@
+<app-baseline-layout>
+    <div class="container-fluid mt-3 mb-2q">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page">
+                    <div class="page-header">
+                        <h2>Resgistration Details</h2>
+                    </div>
+                    <div class="table-container">
+                        <table border="1" align="center" *ngFor="let data of registerationList">
+                            <thead>
+                                <tr style="text-align: center;">
+                                    <th colspan="2">
+                                        <h3>{{ data.heading }}</h3>
+                                    </th>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <th><b>Description</b></th>
+                                    <th><b>Fee</b></th>
+                                </tr>
+                            </thead>
+                            <tbody style="font-size: 15px; margin-left: 200px;">
+
+                                <tr *ngFor="let config of data.table_cofig">
+                                    <td *ngFor="let row of config.row">
+                                        <b *ngIf="row.isBold" class="ml-2">{{ row.text }}</b>
+                                        <span *ngIf="!row.isBold" class="ml-2">{{ row.text }}</span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="transaction-details mt-3">
+                        <table border="1" align="center" cellpadding="10">
+                            <tbody>
+                                <tr>
+
+                                    <td style="line-height:30px;" *ngFor="let trans of transactionList">
+                                        {{ trans.heading }} <strong>{{ trans.currency }}</strong>: <br><br>
+                                        <strong> Title &nbsp; :</strong> {{ trans.title }} <br>
+                                        <strong> A/C # :</strong> {{ trans.account_number }} <br>
+                                        <strong>IBAN &nbsp;:</strong> {{ trans.iban }} <br>
+                                        <strong> {{ trans.bank_name }} </strong><br>
+                                        {{ trans.branch_name }} <br>
+                                        {{ trans.city }}
+                                        <br>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="registration-forms m-3">
+                        <h4>
+                            <a href="">For Author Registration Click Here</a>
+                        </h4>
+                        <h4>
+                            <a href="">For General Participants Registration Click Here</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-baseline-layout>

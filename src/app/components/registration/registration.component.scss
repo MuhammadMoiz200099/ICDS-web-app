@@ -1,0 +1,56 @@
+.table-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    table {
+        width: 45%;
+        height: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+}
+
+.transaction-details {
+    table {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+
+        td {
+            padding: 15px;
+        }
+    }
+}
+
+.registration-forms {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+
+    a {
+        color: #437eb0 !important;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        line-height: 1.1;
+
+        &:hover {
+            color: #437eb0 !important;
+            text-decoration: none;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    table {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

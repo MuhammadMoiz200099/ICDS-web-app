@@ -46,10 +46,12 @@
                             <span>15th October 2018</span>
                         </div>
                         <div class="event-buttons m-3">
-                            <button class="btn btn-primary">Conference Best Paper</button>
+                            <button class="btn btn-primary" [routerLink]="['/accepted-paper']">Conference Best
+                                Paper</button>
                             <button class="btn btn-success extra-round">Previous Events</button>
                             <button class="btn btn-success extra-round">Previous Event Reports</button>
-                            <button class="btn btn-outline-dark">Invited Speakers</button>
+                            <button class="btn btn-outline-dark" [routerLink]="['/invited-speakers']">Invited
+                                Speakers</button>
                         </div>
                         <app-home-gallery></app-home-gallery>
                     </div>
