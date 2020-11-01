@@ -24,6 +24,7 @@ import { OrganizingCommitteeComponent } from './components/organizing-committee/
 import { TechnicalProgramCommitteeComponent } from './components/technical-program-committee/technical-program-committee.component';
 import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
 import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
+import { PartnersComponent } from './components/partners/partners.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { AcceptedPapersComponent } from './components/accepted-papers/accepted-p
     OrganizingCommitteeComponent,
     TechnicalProgramCommitteeComponent,
     InvitedSpeakersComponent,
-    AcceptedPapersComponent
+    AcceptedPapersComponent,
+    PartnersComponent
   ],
   imports: [
     BrowserModule,

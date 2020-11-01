@@ -59,7 +59,7 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
     {
         name: 'Sponsors',
         isMoreOptions: false,
-        routeLink: '',
+        routeLink: '/partners',
     },
     {
         name: 'Contact',

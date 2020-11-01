@@ -6,6 +6,7 @@ import { DetailedTechnicalProgramComponent } from './components/detailed-technic
 import { HomeComponent } from './components/home/home.component';
 import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
 import { OrganizingCommitteeComponent } from './components/organizing-committee/organizing-committee.component';
+import { PartnersComponent } from './components/partners/partners.component';
 import { PreviewImportantDatesComponent } from './components/preview-important-dates/preview-important-dates.component';
 import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
 import { ScopeAndObjectiveComponent } from './components/scope-and-objective/scope-and-objective.component';
@@ -50,6 +51,10 @@ const routes: Routes = [
       {
         path: 'technical-program-committee',
         component: TechnicalProgramCommitteeComponent
+      },
+      {
+        path: 'partners',
+        component: PartnersComponent
       },
       {
         path: 'contact',
