@@ -22,6 +22,8 @@ import { VenueGalleryComponent } from './components/venue-gallery/venue-gallery.
 import { DetailedTechnicalProgramComponent } from './components/detailed-technical-program/detailed-technical-program.component';
 import { OrganizingCommitteeComponent } from './components/organizing-committee/organizing-committee.component';
 import { TechnicalProgramCommitteeComponent } from './components/technical-program-committee/technical-program-committee.component';
+import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
+import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { TechnicalProgramCommitteeComponent } from './components/technical-progr
     VenueGalleryComponent,
     DetailedTechnicalProgramComponent,
     OrganizingCommitteeComponent,
-    TechnicalProgramCommitteeComponent
+    TechnicalProgramCommitteeComponent,
+    InvitedSpeakersComponent,
+    AcceptedPapersComponent
   ],
   imports: [
     BrowserModule,

@@ -15,13 +15,13 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
             routeLink: '/important-dates',
         }, {
             name: 'Invited Speakers',
-            routeLink: '',
+            routeLink: '/invited-speakers',
         }, {
             name: 'Detailed Technical Programs',
             routeLink: '/detailed-technical-program',
         }, {
             name: 'Accepted Papers',
-            routeLink: '',
+            routeLink: '/accepted-paper',
         }]
     },
     {

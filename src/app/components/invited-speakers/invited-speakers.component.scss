@@ -1,0 +1,44 @@
+.page-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 25px;
+
+    .detail-container {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            width: 120px;
+            height: 120px;
+        }
+
+
+        .details {
+            .link-text {
+                font-size: 14px;
+                color: #437eb0;
+                cursor: pointer;
+            }
+
+            .bio {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+    .detail-container {
+        flex-wrap: wrap;
+
+        .details {
+            text-align: center;
+        }
+    }
+}

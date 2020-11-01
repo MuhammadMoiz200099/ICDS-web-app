@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { DetailedTechnicalProgramComponent } from './components/detailed-technical-program/detailed-technical-program.component';
 import { HomeComponent } from './components/home/home.component';
+import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
 import { OrganizingCommitteeComponent } from './components/organizing-committee/organizing-committee.component';
 import { PreviewImportantDatesComponent } from './components/preview-important-dates/preview-important-dates.component';
 import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
@@ -20,6 +22,14 @@ const routes: Routes = [
       {
         path: 'important-dates',
         component: PreviewImportantDatesComponent
+      },
+      {
+        path: 'invited-speakers',
+        component: InvitedSpeakersComponent
+      },
+      {
+        path: 'accepted-paper',
+        component: AcceptedPapersComponent
       },
       {
         path: 'scope-and-objective',
