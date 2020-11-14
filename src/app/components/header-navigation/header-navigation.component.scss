@@ -1,5 +1,5 @@
 .nav-bg {
-    background: #003366 !important;
+    background: linear-gradient(90deg, rgba(8, 137, 238, 1) 0%, rgba(14, 23, 139, 1) 50%, rgba(1, 3, 41, 1) 100%) !important;
 
     .navbar-nav {
         position: relative;
@@ -13,6 +13,10 @@
 
             &:hover {
                 background: #b5b3b3;
+
+                a {
+                    color: #2e2e2e;
+                }
             }
         }
     }
@@ -20,6 +24,10 @@
 
 .drop-open:hover .drop-menu {
     display: flex;
+}
+
+.drop-open:hover a {
+    color: #2e2e2e !important;
 }
 
 .drop-menu {
@@ -38,7 +46,7 @@
         cursor: pointer;
 
         &:hover {
-            background: #003366;
+            background: linear-gradient(90deg, rgba(8, 137, 238, 1) 0%, rgba(14, 23, 139, 1) 50%, rgba(1, 3, 41, 1) 100%) !important;
             color: white !important;
         }
     }
