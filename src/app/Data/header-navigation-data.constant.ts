@@ -5,65 +5,59 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
         name: 'Home',
         isMoreOptions: false,
         routeLink: '',
+        disabled: false
+    },
+    {
+        name: 'Call for Paper',
+        isMoreOptions: false,
+        routeLink: '/call-for-paper',
+        disabled: false
     },
     {
         name: 'Program',
         isMoreOptions: true,
         routeLink: '/important-dates',
+        disabled: false,
         options: [{
             name: 'Important dates',
             routeLink: '/important-dates',
+            disabled: false
         }, {
             name: 'Invited Speakers',
             routeLink: '/invited-speakers',
+            disabled: false
         }, {
-            name: 'Detailed Technical Programs',
-            routeLink: '/detailed-technical-program',
+            name: 'Scopes & Objectives',
+            routeLink: '/scope-and-objective',
+            disabled: true
         }, {
-            name: 'Accepted Papers',
-            routeLink: '/accepted-paper',
+            name: 'Registration',
+            routeLink: '/registration',
+            disabled: true
         }]
-    },
-    {
-        name: 'Scopes & Objectives',
-        isMoreOptions: false,
-        routeLink: '/scope-and-objective',
-    },
-    {
-        name: 'Detailed Technical Program',
-        isMoreOptions: false,
-        routeLink: '/detailed-technical-program',
-    },
-    {
-        name: 'Registration',
-        isMoreOptions: false,
-        routeLink: '/registration',
     },
     {
         name: 'Venue',
         isMoreOptions: false,
         routeLink: '/program-venue',
+        disabled: false
     },
     {
         name: 'Committees',
-        isMoreOptions: true,
+        isMoreOptions: false,
         routeLink: '/organizing-committee',
-        options: [{
-            name: 'Organizing Committee',
-            routeLink: '/organizing-committee',
-        }, {
-            name: 'Technical Program Committee',
-            routeLink: '/technical-program-committee',
-        }]
+        disabled: false
     },
     {
-        name: 'Sponsors',
+        name: 'Accepted Papers',
         isMoreOptions: false,
-        routeLink: '/partners',
+        routeLink: '/accepted-paper',
+        disabled: false
     },
     {
         name: 'Contact',
         isMoreOptions: false,
         routeLink: '/contact',
+        disabled: false
     }
 ];

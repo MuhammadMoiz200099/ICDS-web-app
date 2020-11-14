@@ -26,6 +26,7 @@ import { InvitedSpeakersComponent } from './components/invited-speakers/invited-
 import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
 import { PartnersComponent } from './components/partners/partners.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { CallForPaperComponent } from './components/call-for-paper/call-for-paper.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { RegistrationComponent } from './components/registration/registration.co
     InvitedSpeakersComponent,
     AcceptedPapersComponent,
     PartnersComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    CallForPaperComponent
   ],
   imports: [
     BrowserModule,

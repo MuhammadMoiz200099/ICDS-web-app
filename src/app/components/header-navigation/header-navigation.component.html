@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item active" *ngFor="let navOptions of navbarOptions; let idx = index">
-                <div *ngIf="navOptions.name !== 'Program' && navOptions.name !== 'Committees'">
+                <div *ngIf="navOptions.name !== 'Program'">
                     <a class="nav-link" [routerLink]="[navOptions.routeLink]">{{ navOptions.name }}</a>
                 </div>
-                <div *ngIf="navOptions.name === 'Program' || navOptions.name === 'Committees'" class="drop-open">
+                <div *ngIf="navOptions.name === 'Program'" class="drop-open">
                     <a class="nav-link drop-link" [routerLink]="[navOptions.routeLink]" role="button">
                         {{ navOptions.name }} <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="drop-menu">
-                        <a class="drop-item p-1" *ngFor="let dropOptions of navOptions.options"
-                            [routerLink]="[dropOptions.routeLink]">
+                        <a class="drop-item" [class.disabled-nav]="dropOptions.disabled"
+                            *ngFor="let dropOptions of navOptions.options" [routerLink]="[dropOptions.routeLink]">
                             {{dropOptions.name}}
                         </a>
                     </div>

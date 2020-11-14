@@ -1,0 +1,23 @@
+<app-baseline-layout>
+    <div class="page-layout ml-3 mr-3">
+        <div *ngFor="let d of data" class="mt-4">
+            <div class="page-subheading">
+                <h2>{{ d.heading }}</h2>
+            </div>
+            <div class="page-contant">
+                <p *ngIf="d.breif" class="breif">{{ d.breif }}</p>
+                <ul *ngIf="d.points">
+                   <li *ngFor="let dp of d.points">{{ dp }}</li> 
+                </ul>
+                <div class="para">
+                    <p *ngFor="let p of d.para">{{ p }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 mb-3">
+            <app-important-dates [dates]="importantDate" [isDatesCenter]="true" [showHeader]="false"></app-important-dates>
+        </div>
+
+    </div>
+</app-baseline-layout>

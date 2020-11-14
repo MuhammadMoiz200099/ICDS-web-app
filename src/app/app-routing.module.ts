@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AcceptedPapersComponent } from './components/accepted-papers/accepted-papers.component';
+import { CallForPaperComponent } from './components/call-for-paper/call-for-paper.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { DetailedTechnicalProgramComponent } from './components/detailed-technical-program/detailed-technical-program.component';
 import { HomeComponent } from './components/home/home.component';
@@ -24,6 +25,10 @@ const routes: Routes = [
       {
         path: 'important-dates',
         component: PreviewImportantDatesComponent
+      },
+      {
+        path: 'call-for-paper',
+        component: CallForPaperComponent
       },
       {
         path: 'invited-speakers',

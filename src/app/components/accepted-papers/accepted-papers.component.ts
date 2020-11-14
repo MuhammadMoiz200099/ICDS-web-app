@@ -11,8 +11,17 @@ export class AcceptedPapersComponent implements OnInit {
 
   public bestPapersList: Array<IBestPaper> = MockupDataBestPapers;
   public acceptedPapersList: Array<IAcceptedPaper> = MockDataAcceptedPaper;
+  public isNotBestPaperAvaliable: boolean;
+  public isNotAcceptedPapersAvaliable: boolean;
 
-  constructor() { }
+  constructor() {
+    if (!this.bestPapersList.length) {
+      this.isNotBestPaperAvaliable = true;
+    }
+    if (!this.acceptedPapersList.length) {
+      this.isNotAcceptedPapersAvaliable = true;
+    }
+  }
 
   ngOnInit(): void {
   }

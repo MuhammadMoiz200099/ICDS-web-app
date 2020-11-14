@@ -4,7 +4,10 @@
             <div class="col-md-12">
                 <div class="table-container">
                     <h3>Best paper</h3>
-                    <table class="table table-striped">
+                    <div class="small-text" *ngIf="isNotBestPaperAvaliable">
+                        No Data Avaliable
+                    </div>
+                    <table *ngIf="!isNotBestPaperAvaliable" class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col" class="col-head-width-4x">Track</th>
@@ -24,8 +27,11 @@
         <div class="row mt-5">
             <div class="col-md-12">
                 <div class="table-container">
-                    <h4>Accepted Papers</h4>
-                    <table class="table table-striped">
+                    <h3>Accepted Papers</h3>
+                    <div class="small-text" *ngIf="isNotAcceptedPapersAvaliable">
+                        No Data Avaliable
+                    </div>
+                    <table *ngIf="!isNotAcceptedPapersAvaliable" class="table table-striped">
                         <thead>
                             <tr>
                                 <th scope="col" class="col-head-width-1x">#</th>

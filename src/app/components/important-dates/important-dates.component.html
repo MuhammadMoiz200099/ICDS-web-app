@@ -1,5 +1,5 @@
 <div class="page">
-    <div class="page-header">
+    <div class="page-header" *ngIf="showHeader">
         <h2>Important Dates</h2>
     </div>
     <div class="page-contant" [ngClass]="isDatesCenter ? 'tableCenter' : ''">

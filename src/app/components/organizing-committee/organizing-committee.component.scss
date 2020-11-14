@@ -1,22 +1,36 @@
-.committee-layout {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 40px;
+.committe-details {
 
-    .committe-details {
+    .card-styles {
+        width: 18rem;
+        box-shadow: 0 1px 5px #9a9a9a;
+        width: 18rem;
         display: flex;
         flex: 1;
         flex-direction: column;
-        justify-content: flex-start;
-        width: 55%;
-        font-size: 14px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #676767 !important;
+        justify-content: center;
+        align-items: center;
 
-        .program-name {
-            font-weight: 700;
+        .card-img-top {
+            border-top-left-radius: 0 !important;
+            border-top-right-radius: 0 !important;
+            height: 200px !important;
+            width: 200px !important;
+        }
+
+        .text-sub {
+            font-size: 14px;
+            line-height: 1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #9a9a9a;
+        }
+
+        i {
+            color: #9a9a9a;
+            cursor: pointer;
+
+            &:hover {
+                color: #2e2e2e;
+            }
         }
     }
 }

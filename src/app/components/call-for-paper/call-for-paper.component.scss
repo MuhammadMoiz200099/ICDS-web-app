@@ -1,0 +1,23 @@
+.page-layout {
+    color: #676767;
+    .page-subheading {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-contant {
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+        ul {
+            margin-left: 40px;
+            margin-top: 20px;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+
+}

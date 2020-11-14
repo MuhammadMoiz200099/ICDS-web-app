@@ -9,6 +9,7 @@ import { IImportantDates } from 'src/app/typing/client/important-dates';
 export class ImportantDatesComponent implements OnInit {
 
   @Input() dates: Array<IImportantDates>;
+  @Input() showHeader: boolean;
   @Input() isDatesCenter: boolean;
 
   constructor() { }

@@ -37,13 +37,14 @@
                             </div>
                         </div>
                     </div>
-                    <app-important-dates [dates]="importantDate" [isDatesCenter]="false"></app-important-dates>
+                    <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
+                    </app-important-dates>
                 </div>
                 <div class="col-md-4">
                     <div class="all-events">
                         <div class="paper-date">
                             <span>Paper Submission Date (Extended)</span>
-                            <span>15th October 2018</span>
+                            <span>25th November, 2020</span>
                         </div>
                         <div class="event-buttons m-3">
                             <button class="btn btn-primary" [routerLink]="['/accepted-paper']">Conference Best
