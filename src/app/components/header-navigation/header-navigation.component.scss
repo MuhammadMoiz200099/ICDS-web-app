@@ -57,3 +57,9 @@
     pointer-events: none;
     color: #737272 !important;
 }
+
+@media only screen and (min-width: 992px) {
+    .navbar-brand {
+        display: none;
+    }
+}
