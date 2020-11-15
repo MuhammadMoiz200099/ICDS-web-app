@@ -31,7 +31,7 @@ export class BaselineLayoutComponent implements OnInit {
 
   ngOnInit(): void {
     this.renderer.setStyle(this.appBanner.nativeElement, 'background-image', this.imagesUrl[0].value);
-    interval(2000).subscribe(() => {
+    interval(5000).subscribe(() => {
       if (this.selectedIndex > 3) {
         this.selectedIndex = 0;
       }

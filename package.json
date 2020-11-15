@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://muhammadmoiz200099.github.io/ICDS-web-app/ && angular-cli-ghpages --branch gh-pages && ngh --dir=dist/international-conference-of-data-science"
+    "deploy": "ng build --prod --base-href https://muhammad-moiz-siddique.github.io/ICDS-web-app/ && angular-cli-ghpages --branch gh-pages && ngh --dir=dist/international-conference-of-data-science"
   },
   "private": true,
   "dependencies": {
