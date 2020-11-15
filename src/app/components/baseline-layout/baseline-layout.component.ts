@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-baseline-layout',
@@ -7,9 +8,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BaselineLayoutComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild('appBanner', { static: true }) private appBanner: ElementRef;
+  private selectedIndex = 1;
+  private imagesUrl = [
+    {
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/ezgif.com-video-to-gif.gif")'
+    },
+    {
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/Front-Work-1.jpg")'
+    },
+    {
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/giphy.gif")'
+    },
+    {
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/evnt-video.jpg")'
+    }
+  ];
+
+  constructor(private renderer: Renderer2) {
+
+  }
 
   ngOnInit(): void {
+    this.renderer.setStyle(this.appBanner.nativeElement, 'background-image', this.imagesUrl[0].value);
+    interval(2000).subscribe(() => {
+      if (this.selectedIndex > 3) {
+        this.selectedIndex = 0;
+      }
+      this.renderer.setStyle(this.appBanner.nativeElement, 'background-image', this.imagesUrl[this.selectedIndex].value);
+      this.selectedIndex = this.selectedIndex + 1;
+    });
   }
 
 }

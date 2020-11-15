@@ -1,5 +1,4 @@
 .all-app-page-layout {
-    background-image: url(./../.././../assets/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -17,4 +16,12 @@
             }
         }
     }
+}
+
+:host {
+    display: block;
+}
+
+section {
+    margin-top: 100px;
 }

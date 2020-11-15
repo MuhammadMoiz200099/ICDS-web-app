@@ -2,6 +2,7 @@
     background-image: url(./../.././../assets/maju.jfif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     min-height: 270px;
 
     .top-banner-img {
@@ -30,5 +31,17 @@
             margin-right: 10px;
             font-weight: bold;
         }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .app-banner {
+        min-height: 190px !important;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .app-banner {
+        min-height: 150px !important;
     }
 }

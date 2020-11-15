@@ -1,9 +1,8 @@
 .committe-details {
 
     .card-styles {
-        width: 18rem;
+        width: 100%;
         box-shadow: 0 1px 5px #9a9a9a;
-        width: 18rem;
         display: flex;
         flex: 1;
         flex-direction: column;
@@ -13,8 +12,8 @@
         .card-img-top {
             border-top-left-radius: 0 !important;
             border-top-right-radius: 0 !important;
-            height: 200px !important;
-            width: 200px !important;
+            height: 70% !important;
+            width: 70% !important;
         }
 
         .text-sub {
@@ -31,6 +30,14 @@
             &:hover {
                 color: #2e2e2e;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .committe-details {
+        .row {
+            flex-wrap: wrap;
         }
     }
 }
