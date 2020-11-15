@@ -12,16 +12,16 @@ export class BaselineLayoutComponent implements OnInit {
   private selectedIndex = 1;
   private imagesUrl = [
     {
-      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/ezgif.com-video-to-gif.gif")'
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/posters/ezgif.com-video-to-gif.gif")'
     },
     {
-      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/Front-Work-1.jpg")'
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/posters/Front-Work-1.jpg")'
     },
     {
-      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/giphy.gif")'
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/posters/giphy.gif")'
     },
     {
-      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./../.././../assets/posters/evnt-video.jpg")'
+      value: 'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/posters/evnt-video.jpg")'
     }
   ];
 
