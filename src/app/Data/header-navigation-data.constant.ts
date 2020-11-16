@@ -16,20 +16,20 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
     {
         name: 'Program',
         isMoreOptions: true,
-        routeLink: '/important-dates',
+        routeLink: '/programs',
         disabled: false,
         options: [{
-            name: 'Important dates',
-            routeLink: '/important-dates',
-            disabled: false
-        }, {
-            name: 'Invited Speakers',
-            routeLink: '/invited-speakers',
-            disabled: false
-        }, {
             name: 'Scopes & Objectives',
             routeLink: '/scope-and-objective',
             disabled: true
+        }, {
+            name: 'Invited Speakers',
+            routeLink: '/programs/invited-speakers',
+            disabled: false
+        }, {
+            name: 'Important dates',
+            routeLink: '/programs',
+            disabled: false
         }, {
             name: 'Registration',
             routeLink: '/registration',
@@ -49,7 +49,7 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
         disabled: false
     },
     {
-        name: 'Accepted Papers',
+        name: 'Proceedings',
         isMoreOptions: false,
         routeLink: '/accepted-paper',
         disabled: false

@@ -23,7 +23,7 @@ const routes: Routes = [
         component: HomeComponent
       },
       {
-        path: 'important-dates',
+        path: 'programs',
         component: PreviewImportantDatesComponent
       },
       {
@@ -31,7 +31,7 @@ const routes: Routes = [
         component: CallForPaperComponent
       },
       {
-        path: 'invited-speakers',
+        path: 'programs/invited-speakers',
         component: InvitedSpeakersComponent
       },
       {

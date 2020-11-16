@@ -1,2 +1,18 @@
-<router-outlet name="home"></router-outlet>
-<router-outlet></router-outlet>
+<div #appBanner class="all-app-page-layout">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content">
+                    <app-header-banner></app-header-banner>
+                    <div class="card basline-card mt-3">
+                        <app-header-navigation></app-header-navigation>
+                        <div class="card-body">
+                            <router-outlet></router-outlet>
+                        </div>
+                        <app-footer></app-footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

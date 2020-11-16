@@ -10,8 +10,15 @@ import { INavigation } from 'src/app/typing/client/Navigation-bar';
 
 export class HeaderNavigationComponent {
 
-  constructor() { }
-
   public navbarOptions: Array<INavigation> = MockDataHeaderNavigation;
+  public selectedIndex: string;
+
+  constructor() {
+    this.selectedIndex = this.navbarOptions[0].name;
+  }
+
+  public navigationChange(navOptions): void {
+    this.selectedIndex = navOptions.name;
+  }
 
 }

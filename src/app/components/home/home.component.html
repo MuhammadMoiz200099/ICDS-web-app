@@ -1,63 +1,61 @@
-<app-baseline-layout>
-    <div class="page-panel">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h1 class="overview">Welcome to ICDS’20</h1>
-                    <p class="hero-text">
-                        International Conference on Data Science 2020 ICDS’20 is a second International conference, for
-                        sharing knowledge about cutting edge research and applications of the multidisciplinary field of
-                        data science. The conference will bring together researchers and practitioners from academia and
-                        industry to exchange their knowledge and discuss challenges and goals for data science.
-                    </p>
-                    <p class="hero-text">
-                        The conference will be held on <span>February 7-9, 2021 at Mohammad Ali Jinnah University,
-                            Karachi.</span>
-                    </p>
-                    <p class="hero-text">
-                        The program of the conference will consist of <span>paper presentations, poster presentations,
-                            system exhibition, doctoral colloquium, invited talks</span> and <span>panel
-                            discussions</span>. A dedicated session will be organized about <span>“Data Science
-                            Curriculum”</span>. The topics of the conference include, but are not limited to, the
-                        following areas.
-                    </p>
-                    <div class="programs-ul">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li *ngFor="let items of programsLeftUl">{{items}}</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <ul>
-                                        <li *ngFor="let items of programsRightUl">{{items}}</li>
-                                    </ul>
-                                </div>
+<div class="page-panel">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="overview">Welcome to ICDS’20</h1>
+                <p class="hero-text">
+                    International Conference on Data Science 2020 ICDS’20 is a second International conference, for
+                    sharing knowledge about cutting edge research and applications of the multidisciplinary field of
+                    data science. The conference will bring together researchers and practitioners from academia and
+                    industry to exchange their knowledge and discuss challenges and goals for data science.
+                </p>
+                <p class="hero-text">
+                    The conference will be held on <span>February 7-9, 2021 at Mohammad Ali Jinnah University,
+                        Karachi.</span>
+                </p>
+                <p class="hero-text">
+                    The program of the conference will consist of <span>paper presentations, poster presentations,
+                        system exhibition, doctoral colloquium, invited talks</span> and <span>panel
+                        discussions</span>. A dedicated session will be organized about <span>“Data Science
+                        Curriculum”</span>. The topics of the conference include, but are not limited to, the
+                    following areas.
+                </p>
+                <div class="programs-ul">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li *ngFor="let items of programsLeftUl">{{items}}</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li *ngFor="let items of programsRightUl">{{items}}</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
-                    </app-important-dates>
                 </div>
-                <div class="col-md-4">
-                    <div class="all-events">
-                        <div class="paper-date">
-                            <span>Paper Submission Date (Extended)</span>
-                            <span>25th November, 2020</span>
-                        </div>
-                        <div class="event-buttons m-3">
-                            <button class="btn btn-primary" [routerLink]="['/accepted-paper']">Conference Best
-                                Paper</button>
-                            <button class="btn btn-success extra-round">Previous Events</button>
-                            <button class="btn btn-success extra-round">Previous Event Reports</button>
-                            <button class="btn btn-outline-dark" [routerLink]="['/invited-speakers']">Invited
-                                Speakers</button>
-                        </div>
-                        <app-home-gallery></app-home-gallery>
+                <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
+                </app-important-dates>
+            </div>
+            <div class="col-md-4 mt-3">
+                <div class="all-events">
+                    <div class="paper-date">
+                        <span>Paper Submission Date (Extended)</span>
+                        <span>25th November, 2020</span>
                     </div>
+                    <div class="event-buttons m-3">
+                        <button class="btn btn-primary" [routerLink]="['/accepted-paper']">Conference Best
+                            Paper</button>
+                        <button class="btn btn-success extra-round">Previous Events</button>
+                        <button class="btn btn-success extra-round">Previous Event Reports</button>
+                        <button class="btn btn-outline-dark add-width" [routerLink]="['/invited-speakers']">Invited
+                            Speakers</button>
+                    </div>
+                    <!-- <app-home-sgallery></app-home-gallery> -->
                 </div>
             </div>
         </div>
     </div>
-</app-baseline-layout>
+</div>

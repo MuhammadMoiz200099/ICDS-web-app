@@ -1,5 +1,5 @@
 .overview {
-    text-decoration: underline;
+    font-family: cursive;
 }
 
 .hero-text {
@@ -45,7 +45,12 @@
         gap: 22px;
 
         .extra-round {
+            min-width: 190px;
             border-radius: 1.25rem !important;
+        }
+
+        .add-width {
+            min-width: 190px;
         }
     }
 }
