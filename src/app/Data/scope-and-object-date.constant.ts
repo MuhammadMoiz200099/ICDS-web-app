@@ -3,11 +3,11 @@ import { IScopeAndObjective } from '../typing/client/scope-objective';
 export const MockDataScopeObjective: Array<IScopeAndObjective> = [
     {
         heading: 'Aims and Objective',
-        paragraph: 'International Conference on Advancements in Computational Sciences (ICDS’20) is the second International Conference, a joint effort by the Department of Computer Science, The Muhammad Ali Jinnah University (MAJU). The goal of ICDS’20 is to bring together renowned scientists and leading researchers from academia and industry at one platform with the focus of exchanging ideas on modern computing innovations and applications.'
+        paragraph: 'International Conference on Advancements in Computational Sciences (JICDS’20) is the second International Conference, a joint effort by the Department of Computer Science, The Muhammad Ali Jinnah University (MAJU). The goal of ICDS’20 is to bring together renowned scientists and leading researchers from academia and industry at one platform with the focus of exchanging ideas on modern computing innovations and applications.'
     },
     {
         heading: 'Scope',
-        paragraph: 'ICDS’20 span over the domain of computer science and information technology. The major conference seeks research contribution in research paper formats for ease of anttendees at the event in all computational sciences domains. General areas of interest to ICDS’20 include but are not limited to:'
+        paragraph: 'JICDS’20 span over the domain of computer science and information technology. The major conference seeks research contribution in research paper formats for ease of anttendees at the event in all computational sciences domains. General areas of interest to JICDS’20 include but are not limited to:'
     }
 ];
 

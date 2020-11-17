@@ -35,7 +35,7 @@ const routes: Routes = [
         component: InvitedSpeakersComponent
       },
       {
-        path: 'accepted-paper',
+        path: 'programs/accepted-paper',
         component: AcceptedPapersComponent
       },
       {

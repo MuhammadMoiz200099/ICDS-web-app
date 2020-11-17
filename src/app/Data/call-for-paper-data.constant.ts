@@ -3,7 +3,7 @@ import { ICallForPaper } from '../typing/client/call-for-paper-type';
 export const papersData: Array<ICallForPaper> = [
     {
         heading: 'CALL FOR PAPERS',
-        breif: 'ICDS21 invites authors to submit full papers describing completed or on-going research or development in the field of Data Science. Relevant topics for the conference include, but are not limited to, the following areas:',
+        breif: 'JICDS21 invites authors to submit full papers describing completed or on-going research or development in the field of Data Science. Relevant topics for the conference include, but are not limited to, the following areas:',
         points: [
             'Data Preprocessing',
             'Machine Learning & Data Analytics',
@@ -23,7 +23,7 @@ export const papersData: Array<ICallForPaper> = [
     {
         heading: 'Demonstrations',
         para: [
-            'ICDS19 invites proposals for exhibition of products and/or libraries related to Data Science. The proposed demo can be an academic work as well as industrial solution.',
+            'JICDS19 invites proposals for exhibition of products and/or libraries related to Data Science. The proposed demo can be an academic work as well as industrial solution.',
             'The developer(s) should present a 400 to 700 word abstract describing motivation, design, significance and innovation of the proposed demo. The screenshots of input/output can be appended to the abstract.',
             'For abstract submission, register at online-submission-link-coming-soon.'
         ]
@@ -31,7 +31,7 @@ export const papersData: Array<ICallForPaper> = [
     {
         heading: 'Doctoral Colloquium',
         para: [
-            'ICDS21 invites PhD scholar to present their doctoral thesis work related to Data Science. It is an opportunity for the students to interact with their colleagues as well as senior researchers and academia.',
+            'JICDS21 invites PhD scholar to present their doctoral thesis work related to Data Science. It is an opportunity for the students to interact with their colleagues as well as senior researchers and academia.',
             'The doctoral scholars should submit 2 page extended abstract (+ additional pages for references) describing thesis work (related to Data Science) and its current status.',
             'For abstract submission, register at online-submission-link-coming-soon.'
         ]

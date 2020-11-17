@@ -30,10 +30,11 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
             name: 'Important dates',
             routeLink: '/programs',
             disabled: false
-        }, {
-            name: 'Registration',
-            routeLink: '/registration',
-            disabled: true
+        },
+        {
+            name: 'Proceedings',
+            routeLink: '/programs/accepted-paper',
+            disabled: false
         }]
     },
     {
@@ -49,10 +50,10 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
         disabled: false
     },
     {
-        name: 'Proceedings',
+        name: 'Registration',
         isMoreOptions: false,
-        routeLink: '/accepted-paper',
-        disabled: false
+        routeLink: '/registration',
+        disabled: true
     },
     {
         name: 'Contact',
