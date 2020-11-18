@@ -2,21 +2,33 @@ import { IImages } from '../typing/client/image';
 
 export const MockDataHomeGallery: Array<IImages> = [
     {
-        img: 'assets/dean_foc-189x189.jpg',
+        img: 'assets/gallery/DSC_5156.JPG',
     },
     {
-        img: 'assets/dean_foc1-200x200.png',
+        img: 'assets/gallery/DSC_5171.JPG',
     },
     {
-        img: 'assets/raazi-200x200.png',
+        img: 'assets/gallery/DSC_5161.JPG',
     },
     {
-        img: 'assets/dr_tafseer-200x200.png',
+        img: 'assets/gallery/DSC_5182.JPG',
     },
     {
-        img: 'assets/yaasin-200x200.png',
+        img: 'assets/gallery/DSC_5169.JPG',
     },
     {
-        img: 'assets/touseef-200x200.png',
+        img: 'assets/gallery/DSC_5183.JPG',
     },
+    {
+        img: 'assets/gallery/DSC_5176.JPG',
+    },
+    {
+        img: 'assets/gallery/DSC_5165.JPG',
+    },
+    {
+        img: 'assets/gallery/DSC_5166.JPG',
+    },
+    {
+        img: 'assets/gallery/DSC_5163.JPG',
+    }
 ];

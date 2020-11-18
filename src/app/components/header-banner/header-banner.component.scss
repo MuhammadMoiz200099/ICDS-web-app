@@ -1,47 +1,67 @@
-.app-banner {
-    background-image: url(./../.././../assets/maju.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 270px;
+// .app-banner {
+//     background-image: url(./../.././../assets/header-banners.jpg);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+//     min-height: 270px;
 
-    .top-banner-img {
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
+//     .top-banner-img {
+//         display: flex;
+//         flex: 1;
+//         flex-direction: row;
+//         justify-content: space-around;
+//         align-items: center;
+//     }
 
-    .banner-text {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        color: #e1e1e1;
+//     .banner-text {
+//         display: flex;
+//         flex: 1;
+//         flex-direction: column;
+//         color: #e1e1e1;
 
-        span.banner-text-header {
-            padding-top: 0px;
-            font-size: 32px;
+//         span.banner-text-header {
+//             padding-top: 0px;
+//             font-size: 32px;
+//         }
+
+//         span.banner-text-end-date {
+//             display: flex;
+//             justify-content: flex-end;
+//             margin-top: 1s0px;
+//             margin-right: 10px;
+//             font-weight: bold;
+//         }
+//     }
+// }
+
+// @media only screen and (max-width: 767px) {
+//     .app-banner {
+//         min-height: 190px !important;
+//     }
+// }
+
+// @media only screen and (max-width: 510px) {
+//     .app-banner {
+//         min-height: 150px !important;
+//     }
+// }
+
+.carousel {
+    height: 280px;
+    width: 100%;
+
+    .carousel-inner {
+        height: 100% !important;
+        width: 100% !important;
+
+        .carousel-item {
+            height: 100% !important;
+            width: 100% !important;
+
+            img {
+                height: 100% !important;
+                width: 100% !important;
+            }
         }
-
-        span.banner-text-end-date {
-            display: flex;
-            justify-content: flex-end;
-            margin-top: 1s0px;
-            margin-right: 10px;
-            font-weight: bold;
-        }
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .app-banner {
-        min-height: 190px !important;
-    }
-}
-
-@media only screen and (max-width: 510px) {
-    .app-banner {
-        min-height: 150px !important;
     }
 }

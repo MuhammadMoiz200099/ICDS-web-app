@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgImageSliderModule } from 'ng-image-slider';
 import { HeaderBannerComponent } from './components/header-banner/header-banner.component';
 import { HeaderNavigationComponent } from './components/header-navigation/header-navigation.component';
 import { BaselineLayoutComponent } from './components/baseline-layout/baseline-layout.component';
@@ -59,7 +60,8 @@ import { CallForPaperComponent } from './components/call-for-paper/call-for-pape
     BrowserAnimationsModule,
     NgbModule,
     NgbPaginationModule,
-    NgbAlertModule
+    NgbAlertModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

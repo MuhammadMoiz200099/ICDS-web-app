@@ -4,6 +4,7 @@ import { AcceptedPapersComponent } from './components/accepted-papers/accepted-p
 import { CallForPaperComponent } from './components/call-for-paper/call-for-paper.component';
 import { ContactPageComponent } from './components/contact-page/contact-page.component';
 import { DetailedTechnicalProgramComponent } from './components/detailed-technical-program/detailed-technical-program.component';
+import { HomeGalleryComponent } from './components/home-gallery/home-gallery.component';
 import { HomeComponent } from './components/home/home.component';
 import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
 import { OrganizingCommitteeComponent } from './components/organizing-committee/organizing-committee.component';
@@ -69,6 +70,10 @@ const routes: Routes = [
       {
         path: 'contact',
         component: ContactPageComponent
+      },
+      {
+        path: 'gallery',
+        component: HomeGalleryComponent
       }
     ]
   }

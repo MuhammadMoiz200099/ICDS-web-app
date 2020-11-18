@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderBannerComponent implements OnInit {
 
+  public imageObject: Array<any> = [{
+    image: 'assets/header-banners.jpg',
+    alt: 'alt of image'
+  }, {
+    image: 'assets/headerban.png',
+    alt: 'alt of image'
+  }, {
+    image: 'assets/maju.jfif',
+    alt: 'alt of image'
+  }];
+
   constructor() { }
 
   ngOnInit(): void {

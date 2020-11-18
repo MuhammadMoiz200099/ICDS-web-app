@@ -6,10 +6,18 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 18px;
+    gap: 20px;
 
     img {
-        height: 100px;
-        width: 100px;
+        height: 350px;
+        width: 49%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .img-grid {
+        img {
+            width: 100%;
+        }
     }
 }

@@ -40,17 +40,20 @@
                 <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
                 </app-important-dates>
             </div>
-            <div class="col-md-4 mt-3">
-                <div class="all-events">
+            <div class="col-md-4 mt-5">
+                <div class="all-events mt-2">
                     <div class="paper-date">
                         <span>Paper Submission Date</span>
                         <span>20th Decemeber, 2020</span>
                     </div>
                     <div class="event-buttons m-3">
-                        <button class="btn btn-primary" [routerLink]="['/accepted-paper']">Conference Best
+                        <button class="btn btn-outline-primary add-width"
+                            [routerLink]="['/programs/accepted-paper']">Conference
+                            Best
                             Paper</button>
-                        <button class="btn btn-success extra-round">Previous Events</button>
-                        <button class="btn btn-outline-dark add-width" [routerLink]="['/invited-speakers']">Invited
+                        <button class="btn btn-outline-success add-width" [routerLink]="['/gallery']">Gallery</button>
+                        <button class="btn btn-outline-dark add-width"
+                            [routerLink]="['/programs/invited-speakers']">Invited
                             Speakers</button>
                     </div>
                     <!-- <app-home-sgallery></app-home-gallery> -->
