@@ -17,7 +17,7 @@ export const MockDataImportantDates: Array<IImportantDates> = [
         deadlineClose: false
     },
     {
-        subject: 'Registration Deadline',
+        subject: 'Conference Dates',
         date: '9-10th Feb , 2021',
         deadlineClose: false
     }

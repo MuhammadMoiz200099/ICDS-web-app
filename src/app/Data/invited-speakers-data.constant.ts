@@ -2,23 +2,39 @@ import { IInvitedSpeakers } from '../typing/client/invited-speaker';
 
 export const MockDataInvitedSpeakers: Array<IInvitedSpeakers> = [
     {
-        speaker_img: 'assets/dean_foc-189x189.jpg',
-        speaker_name: 'Prof. Dr. Shaquat wasi (Pakistan)',
-        speaker_bio: 'He is a professor in the Department of Computer Science at Aalborg University within the Distributed and Embedded Systems Unit and director of the ICT-competence center CISS, Center for Embedded Software Systems. In 2015 he won an ERC Advanced Grant with the project LASSO for learning, analysis, synthesis and optimization of cyber physical systems. He is also director of the Sino-Danish Basic Research Center IDEA4CPS, the Danish Innovation Network InfinIT, as well as the newly founded innovation research center DiCyPS: Data Intensive Cyber Physical Systems.'
+        speaker_img: 'assets/sp-1.jpeg',
+        speaker_name: 'JEMAL H. ABAWAJY',
+        speaker_url: 'https://www.researchgate.net/profile/Jemal_Abawajy',
+        speaker_bio: 'JEMAL H. ABAWAJY is a full professor at Faculty of Science, Engineering and Built Environment, Deakin University, Australia. He is a Senior Member of IEEE Society; IEEE Technical Committee on Scalable Computing (TCSC); IEEE Technical Committee on Dependable Computing and Fault Tolerance and IEEE Communication Society. His leadership is extensive spanning industrial, academic and professional areas (e.g., IEEE Technical Committee on Scalable Computing, Academic Board, Faculty Board and Research Integrity Advisory Group).'
     },
     {
-        speaker_img: 'assets/raazi-200x200.png',
-        speaker_name: 'Prof. Dr. Raazi (Pakistan)',
-        speaker_bio: 'He is an Associate Professor of the Department of Computer Science and Engineering, University of Bologna (Italy). His research interests concerns agents and multi-agent systems (MAS) as a paradigm for modeling and engineering software systems. His main research contributions are in the context of Agent/MAS programming and Engineering MAS. Recent research investigations are about Mirror Worlds and Augmented Worlds, i.e. smart environments integrating multi-agent systems with “augmentation technologies” (Augmented Reality/Mixed Reality, Pervasive computing), and to the integration of (Machine) Learning into the process of Agent/MAS design and development.'
+        speaker_img: 'assets/sp-2.jpeg',
+        speaker_name: 'Imad Khan',
+        speaker_url: 'https://www.linkedin.com/in/imadkhan/?originalSubdomain=au',
+        speaker_bio: 'Imad Khan has vast experience across professional software development, industrial process modelling for energy intensive manufacturing industries, energy related financial services, commercial research, energy markets (NEM and WEM) and regulatory modelling for DNSPs and consulting industries. Imad has also served on board of Deakin University overseeing multimillion dollars in investments, trusts and operations. Imad’s holds a PhD is in Artificial Neural Networks (ANN). ANNs are used by AEMO to run NEM Dispatch Engine (NEMDE).'
     },
     {
-        speaker_img: 'assets/dr_tafseer-200x200.png',
-        speaker_name: 'Prof. Dr. Tafseer Ahmed (Pakistan)',
-        speaker_bio: 'He studied electrical engineering with a focus on control engineering and computer science at the University of Karlsruhe and earned his doctorate in 1983 on the topic "New methods for order reduction and controller design based on reduced models". His research and work areas include u. a. the development of new methods and devices in the field of sensors, mechatronics and robotics in the industrial and medical sector, the navigation of mobile robots with the help of the PMD camera, outdoor robotics, tele-control, tele-manipulation, tele-presence and e-learning and Environmental Exploration.'
+        speaker_img: 'assets/sp-3.jpeg',
+        speaker_name: 'Khurram M. PIRZADA',
+        speaker_url: 'https://www.linkedin.com/in/khurrammpirzadabigdata/',
+        speaker_bio: 'Mr. Khurram Pirzada, who has mastery over A.I. and Machine Learning with vast industry experience over multiple international projects. He has served in multiple international organizations including IKTM AG (Germany), RAE systems (South Africa), ITS Consulting Inc. (Singapore), WG Consultancy (France), Zahid Group (Saudia Arabia). Currently, he is working as the Global Head, Advanced Analytics & Data Science, Cloud Venture.'
     },
     {
-        speaker_img: 'assets/yaasin-200x200.png',
-        speaker_name: 'Prof. Dr. Yasin khan (Pakistan)',
-        speaker_bio: 'His current research interest is focussed on the development of new mathematical methods for the analysis of embedded systems behaviour. Important concepts that play a role in this are: - Axiomatic reasoning about execution intervals (and their prefix order); - Event-based modeling and simulation (Matlab SimEvents); - Dataflow graphs and max-plus algebra'
+        speaker_img: 'assets/sp-5.jpeg',
+        speaker_name: 'Dr. Syed Zafar Shazli',
+        speaker_url: 'https://www.linkedin.com/in/syed-zafar-shazli/',
+        speaker_bio: 'Working on automating test suites for testing performance of large scale storage systems. Worked extensively on Multi-objective optimization, evolutionary algorithms and test pattern generation. Dr. Syed Zafar Shazli handles review of manuscripts that are submitted under the following topics. Evolutionary algorithms, Application in VLSI Algorithms, Hybridization of intelligent algorithms, Machine Learning, Intelligent Systems Architecture'
+    },
+    {
+        speaker_img: 'assets/sp-6.jpeg',
+        speaker_name: 'Nasir Zahidi',
+        speaker_url: 'https://www.linkedin.com/in/nasirzahidi/',
+        speaker_bio: 'Nasir Zahidi is Seasoned IT Professional with experience in IT Strategy, Enterprise/Business/Data Architecture, Information/Data Management,Business Analysis, Application Delivery & Program/Project Management.Led and developed teams across multiple Information Management, Business Process Management and Technology Management disciplines. Proficient with the planning and execution of business engagements ensuring that they are properly scoped, staffed, linked to key business outcomes and result in business value.'
+    },
+    {
+        speaker_img: 'assets/sp-4.jfif',
+        speaker_name: 'Noman Nasir',
+        speaker_url: 'https://www.linkedin.com/in/noman-nasir-107a16133/',
+        speaker_bio: 'Noman Nasir is currently working as associate Enginer at Amazon. Previously he was associated with UNHCR & British Council. He has experience working as Executive HR in Coca Cola IceCek. Not only that he has sufficient experience in the Banking sector as well.'
     },
 ];

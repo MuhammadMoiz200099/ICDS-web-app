@@ -1,23 +1,22 @@
-
-    <div class="container-fluid mt-3 mb-5">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page">
-                    <div class="page-heading">
-                        <h3>Invited Speakers</h3>
-                    </div>
-                    <div class="page-content mt-4">
-                        <div class="detail-container" *ngFor="let speaker of speakers">
-                            <img [src]="speaker.speaker_img" alt="speaker image">
-                            <div class="details">
-                                <span class="link-text">{{ speaker.speaker_name }}</span>
-                                <p class="bio">
-                                    {{ speaker.speaker_bio }}
-                                </p>
-                            </div>
+<div class="container-fluid mt-3 mb-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page">
+                <div class="page-heading">
+                    <h3>Invited Speakers</h3>
+                </div>
+                <div class="page-content mt-4">
+                    <div class="detail-container" *ngFor="let speaker of speakers">
+                        <img [src]="speaker.speaker_img" alt="speaker image" class="mt-2">
+                        <div class="details">
+                            <a [href]="speaker.speaker_url">{{ speaker.speaker_name }}</a>
+                            <p class="bio">
+                                {{ speaker.speaker_bio }}
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
