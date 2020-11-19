@@ -54,3 +54,49 @@
         }
     }
 }
+
+.date-time {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: #437eb0;
+    color: white !important;
+    border-radius: 5px;
+
+    .time-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        width: 300px;
+        height: 180px;
+        padding: 20px;
+
+        i {
+            font-size: 32px;
+            color: white;
+        }
+
+        h5 {
+            color: white !important;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .date-time {
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-top: 20px;
+    }
+
+    .on-small-s {
+        margin-top: 0 !important;
+    }
+}

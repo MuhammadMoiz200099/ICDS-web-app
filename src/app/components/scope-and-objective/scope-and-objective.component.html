@@ -1,12 +1,11 @@
-
-    <div class="page-panel">
-        <div class="main-header-para" *ngFor="let data of headerData">
-            <h2>{{ data.heading }}</h2>
-            <p>
-                {{ data.paragraph }}
-            </p>
-        </div>
-        <div class="mt-3">
-            <app-information-card [cardData]="cardData"></app-information-card>
-        </div>
+<div class="page-panel">
+    <div class="main-header-para" *ngFor="let data of headerData">
+        <h2>{{ data.heading }}</h2>
+        <p *ngFor="let p of data.paragraph">
+            {{ p }}
+        </p>
+        <ul *ngIf="data.listOfParagraph">
+            <li *ngFor="let l of data.listOfParagraph">{{ l }}</li>
+        </ul>
     </div>
+</div>

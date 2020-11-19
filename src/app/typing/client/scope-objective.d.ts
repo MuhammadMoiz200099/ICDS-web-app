@@ -1,5 +1,5 @@
 export interface IScopeAndObjective {
     heading: string;
-    paragraph?: string;
+    paragraph?: Array<string>;
     listOfParagraph?: Array<string>;
 }

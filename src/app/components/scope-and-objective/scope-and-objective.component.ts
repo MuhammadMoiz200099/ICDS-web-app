@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MockDataInformationScopeObjective, MockDataScopeObjective } from 'src/app/Data/scope-and-object-date.constant';
+import { MockDataScopeObjective } from 'src/app/Data/scope-and-object-date.constant';
 import { IScopeAndObjective } from 'src/app/typing/client/scope-objective';
 
 @Component({
@@ -10,7 +10,6 @@ import { IScopeAndObjective } from 'src/app/typing/client/scope-objective';
 export class ScopeAndObjectiveComponent implements OnInit {
 
   public headerData: Array<IScopeAndObjective> = MockDataScopeObjective;
-  public cardData: Array<IScopeAndObjective> = MockDataInformationScopeObjective;
 
   constructor() { }
 

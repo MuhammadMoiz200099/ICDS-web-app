@@ -28,6 +28,7 @@ import { AcceptedPapersComponent } from './components/accepted-papers/accepted-p
 import { PartnersComponent } from './components/partners/partners.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { CallForPaperComponent } from './components/call-for-paper/call-for-paper.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { CallForPaperComponent } from './components/call-for-paper/call-for-pape
     AcceptedPapersComponent,
     PartnersComponent,
     RegistrationComponent,
-    CallForPaperComponent
+    CallForPaperComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,

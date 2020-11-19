@@ -1,0 +1,113 @@
+.heading {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .head-line {
+        height: 2px;
+        width: 80px;
+        background: #c5c5c5;
+    }
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+
+    p {
+        color: #437eb0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            position: relative;
+            width: 50%;
+            padding: 20px 40px;
+            box-sizing: border-box;
+
+            &:nth-child(odd) {
+                float: left;
+                text-align: right;
+                clear: both;
+
+                &:before {
+                    position: absolute;
+                    top: 25px;
+                    right: -10px;
+                    width: 18px;
+                    height: 18px;
+                    content: "";
+                    background: white;
+                    border: 6px solid #437eb0;
+                    border-radius: 99em;
+                }
+            }
+
+            &:nth-child(even) {
+                float: right;
+                text-align: left;
+                clear: both;
+
+                &:before {
+                    position: absolute;
+                    top: 25px;
+                    left: -8px;
+                    width: 18px;
+                    height: 18px;
+                    content: "";
+                    background: white;
+                    border: 6px solid #437eb0;
+                    border-radius: 99em;
+                }
+            }
+        }
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        background: #c5c5c5;
+    }
+}
+
+@media (max-width: 767px) {
+    .heading {
+        align-items: flex-start;
+        margin-left: 0;
+    }
+
+    .timeline {
+        width: 100%;
+
+        ul {
+            li {
+
+                &:nth-child(odd),
+                &:nth-child(even) {
+                    width: 100%;
+                    text-align: left !important;
+                    padding-left: 50px !important;
+
+                    &::before {
+                        top: 24px;
+                        left: 12px;
+                    }
+                }
+            }
+        }
+
+        &::before {
+            left: 20px;
+        }
+    }
+}

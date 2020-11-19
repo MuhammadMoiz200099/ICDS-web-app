@@ -1,0 +1,15 @@
+<div class="heading">
+    <h2>Important Dates</h2>
+    <div class="head-line"></div>
+</div>
+<div class="timeline">
+    <ul>
+        <li *ngFor="let row of dates">
+            <div class="content">
+                <h5>{{ row.subject }}</h5>
+                <p>{{ row.date }}</p>
+            </div>
+        </li>
+        <div style="clear: both;"></div>
+    </ul>
+</div>

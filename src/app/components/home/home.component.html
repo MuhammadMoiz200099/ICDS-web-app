@@ -37,10 +37,10 @@
                         </div>
                     </div>
                 </div>
-                <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
-                </app-important-dates>
+                <!-- <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
+                </app-important-dates> -->
             </div>
-            <div class="col-md-4 mt-5">
+            <div class="col-md-4 mt-5 on-small-s">
                 <div class="all-events mt-2">
                     <div class="paper-date">
                         <span>Paper Submission Date</span>
@@ -55,6 +55,29 @@
                             Speakers</button>
                     </div>
                     <!-- <app-home-sgallery></app-home-gallery> -->
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-12">
+                <div class="date-time">
+                    <div class="time-card">
+                        <i class="fa fa-map"></i>
+                        <h5>Where</h5>
+                        <p>Mohammad Ali Jinnah University, Karachi</p>
+                    </div>
+                    <div class="time-card">
+                        <i class="fa fa-clock"></i>
+                        <h5>When</h5>
+                        <p>February 9th - 10th, 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="full-width">
+                    <app-timeline [dates]="importantDate"></app-timeline>
                 </div>
             </div>
         </div>
