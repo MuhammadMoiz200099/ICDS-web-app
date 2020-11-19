@@ -7,5 +7,6 @@ export interface INavigation {
         name: string;
         routeLink: string;
         disabled: boolean;
+        isPDF: boolean;
     }>;
 }

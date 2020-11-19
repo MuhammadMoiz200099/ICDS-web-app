@@ -16,14 +16,14 @@ export const papersData: Array<ICallForPaper> = [
             'Curriculum and Teaching of Data Science'
         ],
         para: [
-            'Papers are to be submitted in pdf format, no more than six pages in length excluding references. Please follow the given IEEE research paper template for the the submission i.e.Word Template, Latex Template',
+            'Papers are to be submitted in pdf format, no more than six pages in length excluding references. Please follow the given template for the the submission i.e.Word Template, Latex Template',
             'The review process will be double-blind, so authors are requested NOT to provide any names or contact details on the submitted paper. Authors should register at online-submission-link-coming-soon to submit their papers.'
         ]
     },
     {
         heading: 'Demonstrations',
         para: [
-            'JICDS19 invites proposals for exhibition of products and/or libraries related to Data Science. The proposed demo can be an academic work as well as industrial solution.',
+            "JICDS'19 " + 'invites proposals for exhibition of products and/or libraries related to Data Science. The proposed demo can be an academic work as well as industrial solution.',
             'The developer(s) should present a 400 to 700 word abstract describing motivation, design, significance and innovation of the proposed demo. The screenshots of input/output can be appended to the abstract.',
             'For abstract submission, register at online-submission-link-coming-soon.'
         ]

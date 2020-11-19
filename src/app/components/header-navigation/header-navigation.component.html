@@ -22,12 +22,19 @@
                         {{ navOptions.name }} <i class="fa fa-caret-down"></i>
                     </a>
                     <div class="drop-menu">
-                        <a class="drop-item" (click)="navigationChange(navOptions)"
-                            [class.disabled-nav]="dropOptions.disabled" *ngFor="let dropOptions of navOptions.options"
-                            [routerLink]="[dropOptions.routeLink]" [routerLinkActive]="['selected-nav']"
-                            [routerLinkActiveOptions]="{ exact: !navOptions.options }">
-                            {{dropOptions.name}}
-                        </a>
+                        <ng-container *ngFor="let dropOptions of navOptions.options">
+
+                            <a class="drop-item" *ngIf="!dropOptions.isPDF" (click)="navigationChange(navOptions)"
+                                [class.disabled-nav]="dropOptions.disabled" [routerLink]="[dropOptions.routeLink]"
+                                [routerLinkActive]="['selected-nav']"
+                                [routerLinkActiveOptions]="{ exact: !navOptions.options }">
+                                {{dropOptions.name}}
+                            </a>
+                            <a class="drop-item" *ngIf="dropOptions.isPDF" [href]="dropOptions.routeLink"
+                                target="blank">
+                                {{dropOptions.name}}
+                            </a>
+                        </ng-container>
                     </div>
                 </div>
             </li>

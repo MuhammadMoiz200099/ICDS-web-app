@@ -21,20 +21,24 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
         options: [{
             name: 'Scopes & Objectives',
             routeLink: '/scope-and-objective',
-            disabled: true
+            disabled: false,
+            isPDF: false
         }, {
             name: 'Invited Speakers',
             routeLink: '/programs/invited-speakers',
-            disabled: false
+            disabled: false,
+            isPDF: false
         }, {
             name: 'Important dates',
             routeLink: '/programs',
-            disabled: false
+            disabled: false,
+            isPDF: false
         },
         {
             name: 'Proceedings',
-            routeLink: '/programs/accepted-paper',
-            disabled: false
+            routeLink: 'assets/Proceedings.pdf',
+            disabled: false,
+            isPDF: true
         }]
     },
     {

@@ -17,7 +17,26 @@
 
         .nav-item {
             a {
+                display: inline-block;
                 color: #FFFFFF;
+                text-decoration: none;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background: #FFFFFF;
+                    transition: width .3s;
+                    position: absolute;
+                    left: 0;
+                    bottom: -2px;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
             }
 
             // &:hover {
@@ -31,12 +50,13 @@
         }
 
         .selected-nav {
-            background: #b5b3b3;
-            border-radius: 5px;
+            border-bottom: 2px solid rgb(255, 255, 255);
+
 
             a {
                 color: #2e2e2e;
             }
+
         }
     }
 }
