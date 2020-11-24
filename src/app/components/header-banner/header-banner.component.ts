@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-banner.component.scss']
 })
 export class HeaderBannerComponent implements OnInit {
-
   public imageObject: Array<any> = [{
     image: 'assets/poster.jpeg',
     alt: 'alt of image'
