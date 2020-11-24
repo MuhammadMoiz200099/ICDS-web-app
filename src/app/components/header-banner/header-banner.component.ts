@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderBannerComponent implements OnInit {
 
   public imageObject: Array<any> = [{
-    image: 'assets/header-banners.jpg',
+    image: 'assets/poster.jpeg',
     alt: 'alt of image'
   }, {
     image: 'assets/headerban.png',
