@@ -4,7 +4,7 @@ export const MockDataScopeObjective: Array<IScopeAndObjective> = [
     {
         heading: 'Aims and Objective',
         paragraph: [
-            "Jinnah International Conference on Data Science 2021 (JICDS'21) is the second International Conference, a joint effort by the Department of Computer Science and The Muhammad Ali Jinnah University (MAJU). The goal of JICDS’20 is to bring together renowned scientists and leading researchers from academia and industry at one platform with the focus of exchanging ideas on modern computing innovations, Data Preprocessing, data mining, data management, data security and advancement in the field of the Data Science.",
+            "Jinnah International Conference on Data Science 2021 (JICDS'21) is the second International Conference, a joint effort by the Department of Computer Science and The Muhammad Ali Jinnah University (MAJU). The goal of JICDS’21 is to bring together renowned scientists and leading researchers from academia and industry at one platform with the focus of exchanging ideas on modern computing innovations, Data Preprocessing, data mining, data management, data security and advancement in the field of the Data Science.",
             "The research papers presenting innovative practices, result oriented frameworks, systems, tools and techniques and good general survey papers demonstrating future directions are also encouraged. Research papers depicting novel work are invited in any of the conference areas listed. Research paper will be reviewed based on the originality, quality and relevance to the scope of JICDS’21. Accepted research papers will be published into the proceeding after one of the author’s paper presentation."
         ]
     },
