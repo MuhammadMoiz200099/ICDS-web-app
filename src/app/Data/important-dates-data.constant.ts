@@ -8,7 +8,7 @@ export const MockDataImportantDates: Array<IImportantDates> = [
     },
     {
         subject: 'Notification Date',
-        date: '15th Jan, 2020',
+        date: '15th Jan, 2021',
         deadlineClose: false
     },
     {
