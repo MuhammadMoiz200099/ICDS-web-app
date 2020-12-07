@@ -7,4 +7,7 @@ export const MockDataFooterImages: Array<IImages> = [
     {
         img: 'assets/icdslogo.png'
     },
+    {
+        img: 'assets/ieee.jpeg'
+    }
 ];
