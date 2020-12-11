@@ -1,4 +1,7 @@
     <div class="page-layout ml-3 mr-3">
+        <div class="postpond-p">
+            <span>Due to the Covid-19, JICDS has been postponed until further notice</span>
+        </div>
         <div *ngFor="let d of data" class="mt-4">
             <div class="page-subheading">
                 <h2>{{ d.heading }}</h2>
@@ -14,9 +17,9 @@
             </div>
         </div>
 
-        <div class="mt-4 mb-3">
+        <!-- <div class="mt-4 mb-3">
             <app-important-dates [dates]="importantDate" [isDatesCenter]="true" [showHeader]="false">
             </app-important-dates>
-        </div>
+        </div> -->
 
     </div>

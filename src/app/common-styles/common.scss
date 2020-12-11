@@ -48,3 +48,29 @@ h6 {
 .col-head-width-4x {
     width: 30%;
 }
+
+.postpond {
+    text-align: center;
+    color: red;
+    width: 290px;
+}
+
+.postpond-p {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.postpond-p span {
+    width: 290px;
+    text-align: center;
+    color: red;
+}
+
+@media only screen and (max-width: 767px) {
+    .postpond-p {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+}
