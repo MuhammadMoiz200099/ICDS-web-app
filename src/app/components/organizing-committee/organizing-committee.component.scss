@@ -1,43 +1,75 @@
+.chairs {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  .card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+    max-width: 280px;
+    min-height: 340px;
+    max-height: 340px;
+  }
+  img {
+    width: 70%;
+  }
+}
+
 .committe-details {
+  .card-styles {
+    width: 100%;
+    box-shadow: 0 1px 5px #9a9a9a;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    .card-styles {
-        width: 100%;
-        box-shadow: 0 1px 5px #9a9a9a;
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        .card-img-top {
-            border-top-left-radius: 0 !important;
-            border-top-right-radius: 0 !important;
-            height: 70% !important;
-            width: 70% !important;
-        }
-
-        .text-sub {
-            font-size: 14px;
-            line-height: 1;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #9a9a9a;
-        }
-
-        i {
-            color: #9a9a9a;
-            cursor: pointer;
-
-            &:hover {
-                color: #2e2e2e;
-            }
-        }
+    .card-img-top {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      height: 70% !important;
+      width: 70% !important;
     }
+
+    .text-sub {
+      font-size: 14px;
+      line-height: 1;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #9a9a9a;
+    }
+
+    i {
+      color: #9a9a9a;
+      cursor: pointer;
+
+      &:hover {
+        color: #2e2e2e;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    .committe-details {
-        .row {
-            flex-wrap: wrap;
-        }
+  .committe-details {
+    .row {
+      flex-wrap: wrap;
     }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .chairs {
+    .card {
+      min-width: 100% !important;
+      max-width: 100% !important;
+      min-height: 450px !important;
+      max-height: 450px !important;
+    }
+  }
 }
