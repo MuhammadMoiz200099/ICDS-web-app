@@ -5,16 +5,17 @@
             <div class="col-md-8">
                 <h1 class="overview">Welcome To MAJICC'21</h1>
                 <p class="hero-text">
-                    Muhammad Ali Jinnah university International Conference on Computing 2021 (MAJICC'21), is a first international
-                    conference for sharing knowledge about
-                    cutting edge research and applications of the multidisciplinary field of data science. The
-                    conference will bring together researchers and practitioners from academia and industry to exchange
-                    their knowledge and discuss about challenges and goals for data science.
+                    Mohammad Ali Jinnah University Conference on Informatics and Computing
+                    2021 (MAJIC 21) is a conference for sharing knowledge about cutting
+                    edge research and applications of computer science. The conference
+                    will bring together researchers and practitioners from academia and
+                    industry to exchange their knowledge and discuss challenges and goals
+                    for computer science and related fields.
                 </p>
                 <p class="hero-text">
-                    The conference will be organized on <span>February 9-10, 2021 by Mohammad Ali Jinnah University,
-                        Karachi. Due to precautions for the second wave of Covid19 pandemic</span>, the conference will
-                    be held online.
+                    The conference will be organized on <span> July 15-17, 2021 by Mohammad Ali
+                    Jinnah University, Karachi.</span> The accepted papers will be indexed by
+                    IEEE Xplore.
                 </p>
                 <p class="hero-text">
                     The program of the conference will consist of <span>paper presentations, poster presentations,
@@ -25,15 +26,13 @@
                 <div class="programs-ul">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6">
-                                <ul>
-                                    <li *ngFor="let items of programsLeftUl">{{items}}</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <ul>
-                                    <li *ngFor="let items of programsRightUl">{{items}}</li>
-                                </ul>
+                            <div class="col-md-12">
+                                <div class="track-details" *ngFor="let details of homeParaDetials">
+                                    <h5>{{ details.name }}</h5>
+                                    <ul>
+                                        <li *ngFor="let items of details.items">{{items}}</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

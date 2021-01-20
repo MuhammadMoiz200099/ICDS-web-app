@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MockDataProgramsLeft, MockDataProgramsRight } from 'src/app/Data/home-data.constant';
+import { MockDataProgramsLeft } from 'src/app/Data/home-data.constant';
 import { MockDataImportantDates } from 'src/app/Data/important-dates-data.constant';
 import { IImportantDates } from 'src/app/typing/client/important-dates';
 
@@ -10,8 +10,7 @@ import { IImportantDates } from 'src/app/typing/client/important-dates';
 })
 export class HomeComponent implements OnInit {
 
-  public programsLeftUl: Array<string> = MockDataProgramsLeft;
-  public programsRightUl: Array<string> = MockDataProgramsRight;
+  public homeParaDetials: Array<any> = MockDataProgramsLeft;
 
   public importantDate: Array<IImportantDates> = MockDataImportantDates;
 

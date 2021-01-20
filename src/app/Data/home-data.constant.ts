@@ -1,15 +1,47 @@
-export const MockDataProgramsLeft: Array<string> = [
-    'Data Preprocessing',
-    'Data Visualization',
-    'Distributed and Parallel Computing',
-    'Ethics and law for Data Science',
-    'Curriculum and Teaching of Data Science'
-];
+export const MockDataProgramsLeft: Array<any> = [
+    {
+        name: 'AI and Data Science',
+        items: [
+            'Machine Learning',
+            'Natural Language  Processing',
+            'Computer Vision',
+            'Semantic Web' ,
+            'Social Networking Analysis',
+            'HCI'
+        ]
+    },
+    {
+        name: 'Computer Networks and Security',
+        items: [
+            'Networks',
+            'IOT',
+            'Security'
+        ]
+    },
+    {
+        name: 'Software Engineering',
+        items: [
+            'Software Defect Prediction', 
+            'Software Maintenance and Evolution',
+            'Mining Software Repositories',
+            'Empirical Software Engineering',
+            'Software Effort Estimation',
+            'Requirement Engineering'            
+        ]
+    },
+    // {
+    //     name: 'Bioinformatics',
+    //     items: []
+    // },
+    {
+        name: 'General Computing',
+        items: [
+            'Programming Languages & Paradigms',
+            'Data Structures and Algorithms',
+            'Operating Systems',
+            'Theory of Computation'                        
+        ]
+    }
 
-export const MockDataProgramsRight: Array<string> = [
-    'Machine Learning & Data Analytics',
-    'Data Storage and Retrieval',
-    'Blockchain and its applications',
-    'Data Science Applications',
 ];
 
