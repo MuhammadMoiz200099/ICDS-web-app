@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
-[Live JICDS'20](https://muhammadmoiz200099.github.io/ICDS-web-app/)
+[Live MAJICC 21](https://muhammadmoiz200099.github.io/ICDS-web-app/)
 
 ## Development server
 
