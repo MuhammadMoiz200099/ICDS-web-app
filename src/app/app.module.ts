@@ -24,6 +24,8 @@ import { AcceptedPapersComponent } from './components/accepted-papers/accepted-p
 import { RegistrationComponent } from './components/registration/registration.component';
 import { CallForPaperComponent } from './components/call-for-paper/call-for-paper.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { OversightCommitteeComponent } from './components/oversight-committee/oversight-committee.component';
+import { ReviewerCommitteeComponent } from './components/reviewer-committee/reviewer-committee.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     AcceptedPapersComponent,
     RegistrationComponent,
     CallForPaperComponent,
-    TimelineComponent
+    TimelineComponent,
+    OversightCommitteeComponent,
+    ReviewerCommitteeComponent
   ],
   imports: [
     BrowserModule,
