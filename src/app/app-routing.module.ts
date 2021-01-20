@@ -7,9 +7,11 @@ import { HomeGalleryComponent } from './components/home-gallery/home-gallery.com
 import { HomeComponent } from './components/home/home.component';
 import { InvitedSpeakersComponent } from './components/invited-speakers/invited-speakers.component';
 import { OrganizingCommitteeComponent } from './components/organizing-committee/organizing-committee.component';
+import { OversightCommitteeComponent } from './components/oversight-committee/oversight-committee.component';
 import { PreviewImportantDatesComponent } from './components/preview-important-dates/preview-important-dates.component';
 import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
 import { RegistrationComponent } from './components/registration/registration.component';
+import { ReviewerCommitteeComponent } from './components/reviewer-committee/reviewer-committee.component';
 import { ScopeAndObjectiveComponent } from './components/scope-and-objective/scope-and-objective.component';
 
 const routes: Routes = [
@@ -51,6 +53,14 @@ const routes: Routes = [
       {
         path: 'organizing-committee',
         component: OrganizingCommitteeComponent
+      },
+      {
+        path: 'oversight-committee',
+        component: OversightCommitteeComponent
+      },
+      {
+        path: 'reviwer-committee',
+        component: ReviewerCommitteeComponent
       },
       {
         path: 'contact',

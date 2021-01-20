@@ -10,12 +10,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
             <li class="nav-item active" *ngFor="let navOptions of navbarOptions; let idx = index">
-                <div *ngIf="navOptions.name !== 'Program'">
+                <div *ngIf="!navOptions.isMoreOptions">
                     <a class="nav-link" (click)="navigationChange(navOptions)" [routerLink]="[navOptions.routeLink]"
                         [routerLinkActive]="['selected-nav']"
                         [routerLinkActiveOptions]="{ exact: !navOptions.options }">{{ navOptions.name }}</a>
                 </div>
-                <div *ngIf="navOptions.name === 'Program'" class="drop-open">
+                <div *ngIf="navOptions.isMoreOptions" class="drop-open">
                     <a class="nav-link drop-link" (click)="navigationChange(navOptions)"
                         [routerLink]="[navOptions.routeLink]" [routerLinkActive]="['selected-nav']"
                         [routerLinkActiveOptions]="{ exact: !navOptions.options }" role="button">

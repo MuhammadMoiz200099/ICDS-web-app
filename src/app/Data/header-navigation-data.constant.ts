@@ -48,10 +48,26 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
         disabled: false
     },
     {
-        name: 'Committees',
-        isMoreOptions: false,
-        routeLink: '/organizing-committee',
-        disabled: false
+        name: 'Committee',
+        routeLink: '/oversight-committee',
+        isMoreOptions: true,
+        disabled: false,
+        options: [{
+            name: 'OverSight Committee',
+            routeLink: '/oversight-committee',
+            disabled: false,
+            isPDF: false
+        }, {
+            name: 'Organizing Committees',
+            routeLink: '/organizing-committee',
+            disabled: false,
+            isPDF: false
+        }, {
+            name: 'Reviewer Committees',
+            routeLink: '/reviwer-committee',
+            disabled: false,
+            isPDF: false
+        }]
     },
     {
         name: 'Registration',
