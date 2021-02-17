@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ReviewerCommitteeComponent } from './reviewer-committee.component';
+import { TechnicalCommitteeComponent } from './technical-committee.component';
 
 describe('ReviewerCommitteeComponent', () => {
-  let component: ReviewerCommitteeComponent;
-  let fixture: ComponentFixture<ReviewerCommitteeComponent>;
+  let component: TechnicalCommitteeComponent;
+  let fixture: ComponentFixture<TechnicalCommitteeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReviewerCommitteeComponent ]
+      declarations: [ TechnicalCommitteeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ReviewerCommitteeComponent);
+    fixture = TestBed.createComponent(TechnicalCommitteeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

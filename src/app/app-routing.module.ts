@@ -11,7 +11,7 @@ import { OversightCommitteeComponent } from './components/oversight-committee/ov
 import { PreviewImportantDatesComponent } from './components/preview-important-dates/preview-important-dates.component';
 import { ProgramVenueComponent } from './components/program-venue/program-venue.component';
 import { RegistrationComponent } from './components/registration/registration.component';
-import { ReviewerCommitteeComponent } from './components/reviewer-committee/reviewer-committee.component';
+import { TechnicalCommitteeComponent } from './components/technical-committee/technical-committee.component';
 import { ScopeAndObjectiveComponent } from './components/scope-and-objective/scope-and-objective.component';
 
 const routes: Routes = [
@@ -59,8 +59,8 @@ const routes: Routes = [
         component: OversightCommitteeComponent
       },
       {
-        path: 'reviwer-committee',
-        component: ReviewerCommitteeComponent
+        path: 'technical-committee',
+        component: TechnicalCommitteeComponent
       },
       {
         path: 'contact',

@@ -63,8 +63,8 @@ export const MockDataHeaderNavigation: Array<INavigation> = [
             disabled: false,
             isPDF: false
         }, {
-            name: 'Reviewer Committees',
-            routeLink: '/reviwer-committee',
+            name: 'Technical Committees',
+            routeLink: '/technical-committee',
             disabled: false,
             isPDF: false
         }]

@@ -25,7 +25,7 @@ import { RegistrationComponent } from './components/registration/registration.co
 import { CallForPaperComponent } from './components/call-for-paper/call-for-paper.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { OversightCommitteeComponent } from './components/oversight-committee/oversight-committee.component';
-import { ReviewerCommitteeComponent } from './components/reviewer-committee/reviewer-committee.component';
+import { TechnicalCommitteeComponent } from './components/technical-committee/technical-committee.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +48,7 @@ import { ReviewerCommitteeComponent } from './components/reviewer-committee/revi
     CallForPaperComponent,
     TimelineComponent,
     OversightCommitteeComponent,
-    ReviewerCommitteeComponent
+    TechnicalCommitteeComponent
   ],
   imports: [
     BrowserModule,
