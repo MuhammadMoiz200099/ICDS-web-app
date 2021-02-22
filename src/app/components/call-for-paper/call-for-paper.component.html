@@ -1,23 +1,41 @@
-    <div class="page-layout ml-3 mr-3">
-            <marquee>Currently the conference with be held online as well as on physical mode. However, physical mode will be confirmed one month before the conference date (depend on the COVID-19 situation). Online participation will always be wellcomed.</marquee>
-        <div *ngFor="let d of data" class="mt-2">
-            <div class="page-subheading">
-                <h2>{{ d.heading }}</h2>
-            </div>
-            <div class="page-contant">
-                <p *ngIf="d.breif" class="breif">{{ d.breif }}</p>
-                <ul *ngIf="d.points">
-                    <li *ngFor="let dp of d.points">{{ dp }}</li>
+<div class="page-layout ml-3 mr-3">
+  <marquee
+    >Currently the conference with be held online as well as on physical mode.
+    However, physical mode will be confirmed one month before the conference
+    date (depending on the COVID-19 situation). Online participation will always
+    be welcome.</marquee
+  >
+  <div *ngFor="let d of data" class="mt-2">
+    <div class="page-subheading">
+      <h2>{{ d.heading }}</h2>
+    </div>
+    <div class="page-contant">
+      <p *ngIf="d.breif" class="breif">{{ d.breif }}</p>
+      <div class="programs-ul">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="track-details" *ngFor="let dp of d.points">
+                <h5>{{ dp.name }}</h5>
+                <ul>
+                  <li *ngFor="let item of dp.items">{{ item }}</li>
                 </ul>
-                <div class="para">
-                    <p *ngFor="let p of d.para">{{ p }}</p>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <!-- <ul *ngIf="d.points">
+        <li *ngFor="let dp of d.points">{{ dp }}</li>
+      </ul> -->
+      <div class="para">
+        <p *ngFor="let p of d.para">{{ p }}</p>
+      </div>
+    </div>
+  </div>
 
-        <!-- <div class="mt-4 mb-3">
+  <!-- <div class="mt-4 mb-3">
             <app-important-dates [dates]="importantDate" [isDatesCenter]="true" [showHeader]="false">
             </app-important-dates>
         </div> -->
-
-    </div>
+</div>

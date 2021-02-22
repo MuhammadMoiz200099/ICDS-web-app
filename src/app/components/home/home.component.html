@@ -1,4 +1,5 @@
 <div class="page-panel">
+<<<<<<< HEAD
     <div class="container">
         <div class="row">
             <marquee>Currently the conference with be held online as well as on physical mode. However, physical mode will be confirmed one month before the conference date (depend on the COVID-19 situation). Online participation will always be wellcomed.</marquee>
@@ -60,10 +61,105 @@
                         <button class="btn btn-outline-primary add-width" [routerLink]="['/gallery']">Gallery</button>
                     </div>
                     <!-- <app-home-sgallery></app-home-gallery> -->
+=======
+  <div class="container">
+    <div class="row">
+      <marquee
+        >Currently the conference with be held online as well as on physical
+        mode. However, physical mode will be confirmed one month before the
+        conference date (depend on the COVID-19 situation). Online participation
+        will always be there.</marquee
+      >
+      <div class="col-md-8">
+        <h1 class="overview">Welcome To MAJICC'21</h1>
+        <p class="hero-text">
+          Mohammad Ali Jinnah University Conference on Informatics and Computing
+          2021 (MAJIC 21) is a conference for sharing knowledge about cutting
+          edge research and applications of computer science. The conference
+          will bring together researchers and practitioners from academia and
+          industry to exchange their knowledge and discuss challenges and goals
+          for computer science and related fields.
+        </p>
+        <p class="hero-text">
+          The conference will be organized on
+          <span>
+            July 15-17, 2021 by Mohammad Ali Jinnah University, Karachi.</span
+          >
+          The accepted papers will be indexed by IEEE Xplore.
+        </p>
+        <p class="hero-text">
+          The program of the conference will consist of
+          <span
+            >paper presentations, poster presentations, system exhibition,
+            doctoral colloquium, invited talks.</span
+          >
+          The topics of the conference include, but are not limited to, the
+          following areas.
+        </p>
+        <div class="programs-ul">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div
+                  class="track-details"
+                  *ngFor="let details of homeParaDetials"
+                >
+                  <h5>{{ details.name }}</h5>
+                  <ul>
+                    <li *ngFor="let items of details.items">{{ items }}</li>
+                  </ul>
+>>>>>>> sir_sarmad_branch
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- <div class="row mt-2">
+        <!-- <app-important-dates [dates]="importantDate" [isDatesCenter]="false" [showHeader]="true">
+                </app-important-dates> -->
+      </div>
+      <div class="col-md-4 mt-5 on-small-s">
+        <div class="all-events mt-2">
+          <div class="paper-date">
+            <span>Paper Submission Date</span>
+            <span>3rd April, 2021</span>
+          </div>
+          <div class="event-buttons m-3">
+            <a
+              class="btn btn-outline-primary add-width"
+              href="assets/Call_For_Paper.jpeg"
+              download="call-for-paper.jpeg"
+              >Call for Paper</a
+            >
+            <a
+              class="btn btn-outline-primary add-width"
+              href="assets/download/paper.doc"
+              download="paper-template.doc"
+              >Paper Template</a
+            >
+            <a
+              class="btn btn-outline-primary add-width"
+              href="http://icds.jinnah.edu"
+              target="blank"
+              >Previous Conference</a
+            >
+            <button
+              class="btn btn-outline-primary add-width"
+              [routerLink]="['/programs/invited-speakers']"
+            >
+              Invited Speakers
+            </button>
+            <button
+              class="btn btn-outline-primary add-width"
+              [routerLink]="['/gallery']"
+            >
+              Gallery
+            </button>
+          </div>
+          <!-- <app-home-sgallery></app-home-gallery> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row mt-2">
             <div class="col-md-12">
                 <div class="date-time">
                     <div class="time-card">
@@ -86,5 +182,5 @@
                 </div>
             </div>
         </div> -->
-    </div>
+  </div>
 </div>
