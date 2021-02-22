@@ -7,7 +7,7 @@ export const MockDataProgramsLeft: Array<any> = [
             'Computer Vision',
             'Semantic Web' ,
             'Social Networking Analysis',
-            'HCI'
+            'Human Computer Interaction'
         ]
     },
     {

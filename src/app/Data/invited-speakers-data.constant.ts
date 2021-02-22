@@ -2,6 +2,12 @@ import { IInvitedSpeakers } from '../typing/client/invited-speaker';
 
 export const MockDataInvitedSpeakers: Array<IInvitedSpeakers> = [
     {
+        speaker_img: 'assets/humera_noor.jpg',
+        speaker_name: 'DR. HUMERA NOOR MINHAS',
+        speaker_url: 'https://www.researchgate.net/profile/Jemal_Abawajy',
+        speaker_bio: 'Dr. Humera Noor has a PhD in Computer Vision from NED University of Engineering & Technology Karachi, and University of Central Florida. She brings with herself 20 years of experience out of which 7 is exclusively in big data analytics & quality engineering, which she gained as Team Lead Quality Analysis at a German startup. she is currently the mentor at CareerFoundry, helping students and professionals through the Data Analytics Program, ensuring they graduate feeling job-ready.'
+    },
+    {
         speaker_img: 'assets/sp-1.jpeg',
         speaker_name: 'JEMAL H. ABAWAJY',
         speaker_url: 'https://www.researchgate.net/profile/Jemal_Abawajy',

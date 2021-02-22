@@ -6,19 +6,19 @@ export const MockDataOrganizingCommittee: Array<IOrganizingCommittee> = [
         program_details: [
             {
                 program: 'General Chair',
-                instructors: 'Dr. Muhammad Atif (UOL) , Dr. Muhammad Adnan Hashmi (UOL)'
+                instructors: 'Dr. Shaukat Wasi'
             },
             {
                 program: 'Technical Committee Chair',
-                instructors: 'Prof. Dr. Amjad Hussain, Director, (FAST-NU), Lahore Campus, Dr. Muhammad Murtaza Yousaf (PUCIT)'
+                instructors: 'Dr. Tafseer'
             },
             {
                 program: 'Conference Secretary',
-                instructors: 'Dr. Yasir Niaz (UOL)'
+                instructors: 'Dr. Syed Sarmad Ali'
             },
             {
                 program: 'Finance Chair',
-                instructors: 'Dr. Arshad Ali (UOL)'
+                instructors: 'Aqeel Tahir'
             },
             {
                 program: 'Publication & Indexing Chair',

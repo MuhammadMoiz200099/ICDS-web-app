@@ -1,12 +1,31 @@
 <div class="page-panel">
-    <marquee>Currently the conference with be held online as well as on physical mode. However, physical mode will be confirmed one month before the conference date (depend on the COVID-19 situation). Online participation will always be there.</marquee>
-    <div class="main-header-para" *ngFor="let data of headerData">
-        <h2>{{ data.heading }}</h2>
-        <p *ngFor="let p of data.paragraph">
-            {{ p }}
-        </p>
-        <ul *ngIf="data.listOfParagraph">
-            <li *ngFor="let l of data.listOfParagraph">{{ l }}</li>
-        </ul>
+  <marquee
+    >Currently the conference with be held online as well as on physical mode.
+    However, physical mode will be confirmed one month before the conference
+    date (depend on the COVID-19 situation). Online participation will always be
+    there.</marquee
+  >
+  <div class="main-header-para" *ngFor="let data of headerData">
+    <h2>{{ data.heading }}</h2>
+    <p *ngFor="let p of data.paragraph">
+      {{ p }}
+    </p>
+    <div *ngIf="data.programs" class="programs-ul">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="track-details" *ngFor="let program of data.programs">
+              <h5>{{ program.name }}</h5>
+              <ul>
+                <li *ngFor="let item of program.items">{{ item }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- <ul *ngIf="data.listOfParagraph">
+            <li *ngFor="let l of data.listOfParagraph">{{ l }}</li>
+        </ul> -->
+  </div>
 </div>
